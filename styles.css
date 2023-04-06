@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+}
+
+.top-bar {
+  height: 130px;
+  background-color:#201f1f;
+}
+
+.person-icon {
+  height: 25px;
+}
+
+.select-container, .button {
+  border: none;
+  background: none;
+  color: green
+}
+
+.button {
+  font-size: 25px;
+}
+
+.button:hover {
+  color: red
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.lower-bar {
+  padding-top: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: green;
+  font-family: "papyrus";
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  width: 100vw;
+
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 75vw;
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.grid-container {
+  background: rgb(22,19,20);
+  background: radial-gradient(circle, rgba(22,19,20,1) 0%, rgba(42,102,45,1) 100%);
+  padding: 25px 100px 150px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  height: 100vh;
+}
+
+article {
+  background-color: #201f1f;
+  margin: 0;
+  height: 410px;
+  width: 280px;
+  border: 1px solid black;
+  color: green;
+  font-family: "papyrus";
+}
+
+.card-top {
+  height: 200px;
+}
+
+.bring-me-header {
+  background-image: url("assets/bmth.png");
+  background-size: cover;
+}
+
+.bad-omens-header {
+  background-image: url("assets/Bad_Omens.png");
+  background-size: cover;
+}
+
+.sleep-token-header {
+  background-image: url("assets/sleep-token.png");
+  background-size: cover;
+
+}
+
+.dayseeker-header {
+  background-image: url("assets/dayseeker.png");
+  background-size: cover;
+}
+
+.i-see-header {
+  background-image: url("assets/icy.png");
+  background-size: cover;
+}
+
+.electric-header {
+  background-image: url("assets/ec1-wide-web.png");
+  background-size: cover;
+}
+
+.amity-affliction-header {
+  background-image: url("assets/amity.png");
+  background-size: cover;
+}
+
+.browning-header {
+  background-image: url("assets/browning.png");
+  background-size: cover;
+}
+
+.card-middle {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.card-bottom, .playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.album {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  width: 75px;
+}
+
+.band {
+  padding-bottom: 30px
+}
+
+
+
+
